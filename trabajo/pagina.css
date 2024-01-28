@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.head {
+    display: flex;
+    padding: 4vh 3.8vw;
+    background-color: #f7f7f7;
+    text-align: center;
+    align-items: center;
+    gap: 4vw;
+}
+
+.menu i {
+    font-size: 1.5em;
+    color: #000000;
+    cursor: pointer;
+}
+
+.back a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #000000;
+    font-weight: bold;
+}
+
+.cart a {
+    display: flex;
+    color: #000000;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.cart p {
+    margin: 0 0.2vw;
+    color: #2035ac;
+}
+
+.lenguage a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #000000;
+    font-weight: bold;
+}
+
+.lenguage img {
+    width: 25%;
+}
+
+.logo {
+    width: 70%;
+}
+
+.logo img {
+    width: 72%;
+}
+
+.trendAccessories {
+    padding: 8vh 8vw;
+    display: flex;
+    background-color: #f7f7f7;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+.AccessoriesDescrip {
+    width: 22vw;
+}
+
+.trendAccessoriesDescrip h1 {
+    font-size: 1.8em;
+    margin: 0.8vw 0;
+    font-weight: bold;
+}
+
+.trendAccessoriesDescrip p {
+    font-size: 1.1em;
+    font-weight: 400;
+    margin: 3vh 0 3vw 0;
+    line-height: 1.7em;
+}
+
+.btnBuyAccessories {
+    margin: 0 5.5vw 0 0;
+    padding: 5% 13%;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 3px;
+    border: #132170 0.15vw solid;
+    color: #132170;
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.trendAccessoriesImg {
+    width: 62vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.detailsTrendAccessories {
+    padding: 0 8vw 10vh 8vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+}
+
+.productDetails a {
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: bolder;
+    color: #000000;
+}
+
+.productDetails i {
+    color: #000000;
+}
+
+.listTrendProduct {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
+}
+
+.listTrendProduct h1 {
+    font-size: 0.8em;
+    font-weight: 600;
+    font-weight: bold;
+}
+
+.spaceProduct i {
+    color: #000000;
+}
+
+.arrowListedProduct i {
+    color: #132170;
+    font-size: 1.5em;
+}
+
+.filters {
+    margin: 8vh 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.filters h1 {
+    font-size: 0.5em;
+    background-color: #f7f7f7;
+}
+
+.filters h1 {
+    font-size: 1em;
+    font-weight: bolder;
+    padding: 1.5vh 0.8vw;
+    border-radius: 4%;
+    letter-spacing: 2px;
+}
+
+.filters i {
+    color: #454545;
+    cursor: pointer;
+}
+
+.filtersUnmarked {
+    color: #818181;
+}
+
+.Accessories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5vw;
+    margin: 0 8vw;
+}
+
+.containerProduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeeee;
+    padding: 10vh 0;
+    cursor: pointer;
+}
+.product{
+    display:flex ;
+    justify-content :space-between;
+    width: 70%;
+}
+
+
+
+.imgProduct {
+    width: 100%;
+    height: 45vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.infoProduct {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.infoProduct h1 {
+    font-size: 1.2em;
+    font-weight: 600;
+    font-weight: bold;
+    color: #454545;
+}
+
+.containerProduct h2 {
+    font-size: 0.9em;
+    font-weight: 600;
+    font-weight: bold;
+    color: #969696;
+    width: 70%;
+    margin: 1.5vh 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;   
+    padding: 6vh 8vw;
+    text-align: center;
+}
+
+.footer h4{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #1d90c5;
+    cursor: pointer;
+    border-radius: 0.10vw;
+    padding: 0.1vh 0.1vw;
+}
+
+
+.lenguageFooter{
+    display: flex;
+    align-items: center;
+    width: 10%;
+}
+
+.lenguageFooter a{
+    text-decoration: none;
+    color: #1d90c5;
+    cursor: pointer;
+}
+
+.lenguageFooter i{
+    color: #1d90c5;
+    cursor: pointer
+}
+
+.socialFooter{
+    display: flex;
+    gap: 0.7vw;
+}
+
+
+@media screen and (max-width: 767px) {
+
+.menu i {
+    font-size: 1.2em;
+}
+
+.back a {
+    font-size: 0.8em;
+}
+
+.cart a {
+    font-size: 0.8em;
+}
+
+.cart p {
+    font-size: 0.8em;
+}
+
+.lenguage a {
+    font-size: 0.8em;
+}
+
+.lenguage img {
+    width: 20%;
+}
+
+.logo {
+    width: 80%;
+}
+
+.logo img {
+    width: 60%;
+}
+
+.trendAccessories {
+    padding: 8vh 5vw;
+    gap: 4vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trendAccessoriesDescrip {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.btnBuyAccessories {
+    margin: 0 0 5vh 0;
+    padding: 5% 15%;
+    font-size: 1.2em;
+}
+
+.trendAccessoriesImg {
+    width: 80%;
+    height: 20vh;
+    margin-bottom: 5vh;
+}
+
+.listTrendProduct {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filters {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 8vh 5vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2vh;
+}
+
+.filters h1 {
+    font-size: 1em;
+    padding: 1.5vh 1vw;
+}
+
+.accessories {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 4vw;
+    margin: 0 5vw;
+}
+
+.containerProduct {
+    padding: 5vh 0;
+}
+
+.infoProduct h1 {
+    font-size: 1.2em;
+}
+
+.containerProduct h2 {
+    font-size: 1em;
+}
+}
